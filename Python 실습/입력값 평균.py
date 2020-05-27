@@ -1,3 +1,7 @@
+'''
+
+'''
+
 def avg(ip):
     print(ip)
     sum=0
