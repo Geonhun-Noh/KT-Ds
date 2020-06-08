@@ -15,12 +15,13 @@ public class Distance_Conversion {
 			System.out.print(Outline[i+1]+"\t"); //첫 열 출력(단위 표시)
 			
 			for(int j=0;j<Cm.length;j++) {
-				System.out.print(String.format("%.7f",multi[i]*Cm[j]));//배열 Cm와 multi 값의 곱으로 단위환산표 도출
+				System.out.print(String.format("%.7f",multi[i]*Cm[j]));
+				//배열 Cm와 multi 값의 곱으로 단위환산표 도출 		String.format : 출력하려는 값을 소수점 몇째자리까지 출력할지 설정
 				System.out.print("\t");
 			}
 			System.out.println();
 		}
-	}
+	}							
 
 
 }
