@@ -1,4 +1,14 @@
 package JavaEx;
+/* 1차원 배열로 거리 환산표 만들기
+ * 
+ * 	  1cm 기준								환산
+ * 1cm = 1cm							1cm = 1cm
+ * 1cm = 0.01m							100cm = 1m
+ * 1cm = 0.3937007874015748 inch		2.54cm = 1inch
+ * 1cm = 0.032808398950 feet			30.48cm = 1feet
+ * 1cm = 0.010936132983 yard			91.44cm = 1yard
+ * 1cm = 0.000006213712 mile			160934.4cm  1mile
+ */
 
 public class Distance_Conversion {
 	public static void main(String[] args) {
