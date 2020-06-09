@@ -1,4 +1,8 @@
 package JavaEx;
+/*
+ * 거리환산표
+ * Distance_Conversion 예제와 동일하지만 2차원 배열을 사용해 표현하기
+ */
 
 public class Distance_Conversion2 {
 	public static void main(String[] args) {
